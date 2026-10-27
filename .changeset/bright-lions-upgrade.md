@@ -4,7 +4,7 @@
 
 feat: upgrade scaffolded projects to Next.js 16
 
-- bump `next` to `^16.3.6`, `react`/`react-dom` to `^19.3.0` and `eslint-config-next` to `^16.3.6`
+- bump `next` to `^16.4.3`, `react`/`react-dom` to `^19.3.1` and `eslint-config-next` to `^16.4.3`
 - bump `next-auth` to `5.0.0-beta.32` (`beta.25` does not allow Next.js 16 as a peer)
 - replace the removed `next lint` with `eslint .` and use `eslint-config-next`'s native flat config (drops `@eslint/eslintrc`)
 - drop `--turbo` from the `dev` script since Turbopack is now the default

@@ -45,8 +45,8 @@ export const dependencyVersionMap = {
   prettier: "^3.5.3",
   "prettier-plugin-tailwindcss": "^0.6.11",
   eslint: "^9.39.5",
-  "eslint-config-next": "^16.3.6",
+  "eslint-config-next": "^16.4.3",
   "eslint-plugin-drizzle": "^0.2.3",
-  "typescript-eslint": "^8.46.0",
+  "typescript-eslint": "^8.56.0",
 } as const;
 export type AvailableDependencies = keyof typeof dependencyVersionMap;
